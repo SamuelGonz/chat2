@@ -11,7 +11,7 @@ import {
 export const Sidebar = ({ showMenu }) => {
    return (
       <div
-         className={`fixed md:left-0 w-full sm:w-4/6 md:w-72 h-full border-r-2  p-6 flex flex-col justify-between bg-white overflow-y-auto z-20 ${
+         className={`fixed lg:left-0 w-full sm:w-4/6 lg:w-72 h-full border-r-2  p-6 flex flex-col justify-between bg-white overflow-y-auto z-20 ${
             showMenu ? "left-0" : "-left-full"
          } transition-all`}
       >
