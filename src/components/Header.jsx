@@ -2,8 +2,8 @@ import { RiSendPlaneLine, RiSearch2Line, RiFileCopyLine } from "react-icons/ri";
 
 export const Header = () => {
    return (
-      <div className="fixed lg:pl-72 w-full">
-         <header className=" bg-white py-6 px-4 border-b-2  flex justify-between">
+      <div className="fixed lg:pl-72 w-full z-10">
+         <header className=" bg-white py-6 px-4 border-b-2  flex justify-between ">
             <h2 className="text-2xl font-semibold">Messages</h2>
             <button className="flex items-center gap-4 border text-sky-900 font-medium py-2 px-3 text-sm rounded-lg">
                <RiSendPlaneLine />
