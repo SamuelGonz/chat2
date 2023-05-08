@@ -6,7 +6,7 @@ export const ListChats = () => {
          <li className="hover:bg-gray-100 p-4 border-b">
             <a href="#">
                <div className="text-sm font-semibold mb-1 flex items-center gap-2 ">
-                  <RiCheckboxBlankCircleFill className="text-yellow-500 text-md" />
+                  <RiCheckboxBlankCircleFill className="text-yellow-500 text-[8px]" />
                   <p className="truncate">Lorem, ipsum. (ADSF684) Lorem ipsum dolor sit.</p>
                </div>
                <p className="text-gray-500 text-xs mb-2">

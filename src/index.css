@@ -12,6 +12,10 @@
 }
 
 
-.ancho {
-  width: inherit;
+.rounded-guess {
+  @apply rounded-tr-lg rounded-br-lg rounded-bl-lg
+}
+
+.rounded-my-messages {
+  @apply rounded-tl-lg rounded-bl-lg rounded-br-lg
 }
